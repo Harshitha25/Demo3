@@ -8,10 +8,10 @@ import org.testng.annotations.Test;
 import io.github.bonigarcia.wdm.WebDriverManager;
 
 public class PS2Test {
-	WebDriver driver;
+	//WebDriver driver;
 	@Test
 public void practice(){
-		String BROWSER = System.getProperty("browser");
+		/*String BROWSER = System.getProperty("browser");
 		String URL= System.getProperty("url");
 		 if(BROWSER.equalsIgnoreCase("chrome"))
 		 { WebDriverManager.chromedriver().setup();
@@ -20,7 +20,7 @@ public void practice(){
 		 { WebDriverManager.firefoxdriver().setup();
 			 driver=new FirefoxDriver();}
 		 
-		 driver.get(URL);
+		 driver.get(URL);*/
 		 
 	System.out.println("Hello");
 	System.out.println("Poll scm success");
