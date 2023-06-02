@@ -20,6 +20,8 @@ public void practice(){
 		 { WebDriverManager.firefoxdriver().setup();
 			 driver=new FirefoxDriver();}
 		 
+		 driver.get(URL);
+		 
 	System.out.println("Hello");
 	System.out.println("Poll scm success");
 }
