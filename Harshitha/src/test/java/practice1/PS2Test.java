@@ -6,5 +6,6 @@ public class PS2Test {
 	@Test
 public void practice(){
 	System.out.println("Hello");
+	System.out.println("Poll scm success");
 }
 }
